@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+   
+</head>
+
+<body>
+    <div class="container-fuild ">
+        <div class="head-inner">
+            <input type="text" name="input" id="input" class="screen">
+            <input type="text" name="result" id="result" class="screen">
+        </div>
+        <div class="body-inner">
+            <div class=" lg-btn">
+                <input type="button" class="btn clear" name="clear" id="btn" onclick="clearAll()" value="C">
+                <input type="button" class="btn" name="delete" id="btn" onclick="del()" value="Del">
+                <input type="button" class="btn" name="seven" id="btn" onclick="calculate()" value="=">
+            </div>
+
+            <div class="input-col">
+                <input type="button" class="btn" name="seven" id="btn" onclick="getNum('7')" value="7">
+                <input type="button" class="btn" name="seven" id="btn" onclick="getNum('8')" value="8">
+                <input type="button" class="btn" name="seven" id="btn" onclick="getNum('9')" value="9">
+                <input type="button" class="btn" name="seven" id="btn" onclick="getNum('/')" value="/">
+            </div>
+            <div class="input-col">
+                <input type="button" class="btn" name="seven" id="btn" onclick="getNum('4')" value="4">
+                <input type="button" class="btn" name="seven" id="btn" onclick="getNum('5')" value="5">
+                <input type="button" class="btn" name="seven" id="btn" onclick="getNum('6')" value="6">
+                <input type="button" class="btn" name="seven" id="btn" onclick="getNum('*')" value="*">
+            </div>
+            <div class="input-col">
+                <input type="button" class="btn" name="seven" id="btn" onclick="getNum('1')" value="1">
+                <input type="button" class="btn" name="seven" id="btn" onclick="getNum('2')" value="2">
+                <input type="button" class="btn" name="seven" id="btn" onclick="getNum('3')" value="3">
+                <input type="button" class="btn" name="seven" id="btn" onclick="getNum('-')" value="-">
+            </div>
+            <div class="input-col">
+                <input type="button" class="btn" name="seven" id="btn" onclick="getNum('%')" value="%">
+                <input type="button" class="btn" name="seven" id="btn" onclick="getNum('0')" value="0">
+                <input type="button" class="btn" name="seven" id="btn" onclick="getNum('.')" value=".">
+                <input type="button" class="btn" name="seven" id="btn" onclick="getNum('+')" value="+">
+            </div>
+        </div>
+
+
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>

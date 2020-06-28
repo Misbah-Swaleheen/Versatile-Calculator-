@@ -1,0 +1,66 @@
+*{
+    font-family: 'IBM Plex Serif', serif;
+}
+body{
+    background-image: linear-gradient(to bottom right, #757F9A , #D7DDE8 );
+    }
+.container-fuild{
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding: 30px ;
+    /* width: 30% ; */
+    width: 400px;
+    border: 2px solid white;
+    border-radius: 15px;
+    box-shadow:  3px 3px 5px 5px rgba(0, 0, 0, 0.5);
+    background-image: linear-gradient(to top left, #ED4264, #5C258D);
+    
+}
+.head-inner{
+    border: 1px solid gray;
+    border-radius: 15px;
+    box-shadow: inset 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+    background-color: white;
+}
+.screen{
+    margin: 10px 10px;
+    display: block;
+    width: 90%;
+    height: 25px;
+    border: none;
+    outline: none;
+    
+    /* padding: 0px 10px; */
+}
+#result{
+    text-align: right;
+    font-size: 18px;
+    
+}
+#input{
+    padding-left: 15px;
+    font-size: 15px;
+}
+.body-inner{
+    margin: 10px;
+    
+}
+.btn{
+    margin: 15px ;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+    /* box-shadow:  1px 1px 1px 1px rgba(0, 0, 0, 0.5); */
+    width: 60px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 15px;
+    outline: none;
+}
+.btn:hover{
+    box-shadow:  1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+.clear{
+    padding: 0px 75px;
+}
